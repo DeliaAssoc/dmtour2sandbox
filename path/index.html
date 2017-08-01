@@ -8,15 +8,18 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
 	<!--    <link href="css/style.css" rel="stylesheet"> -->
-	<!-- <link rel="stylesheet" type="text/css" href="css/style.css" /> -->
-	<link id="size-stylesheet" rel="stylesheet" type="text/css" href="css/medium.css" /> 
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<!-- <link id="size-stylesheet" rel="stylesheet" type="text/css" href="css/medium.css" />  -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 	
 	<script type="text/javascript">
+
+  var windowWidth = $( window ).width();	
 	
-		
-            function adjustStyle(width) {
+  adjustStyle( windowWidth );
+  
+  function adjustStyle(width) {
 		
 			width = parseInt(width);
 			if (width < 701) {
@@ -35,12 +38,12 @@
 		} 
             
 
-		$(function() {
-			//adjustStyle($(this).width());
-			$(window).resize(function() {
-				adjustStyle(800);
-			});
-		});
+		// $(function() {
+		// 	//adjustStyle($(this).width());
+		// 	$(window).resize(function() {
+		// 		adjustStyle(800);
+		// 	});
+		// });
 
 	</script>
   </head>
