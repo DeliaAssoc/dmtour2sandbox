@@ -7,45 +7,45 @@
     <title>Tour 2</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
-	<!--    <link href="css/style.css" rel="stylesheet"> -->
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<!-- <link id="size-stylesheet" rel="stylesheet" type="text/css" href="css/medium.css" />  -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!--    <link href="css/style.css" rel="stylesheet"> -->
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- <link id="size-stylesheet" rel="stylesheet" type="text/css" href="css/medium.css" />  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-	
-	<script type="text/javascript">
-
-  var windowWidth = $( window ).width();	
-	
-  adjustStyle( windowWidth );
   
+  <script type="text/javascript">
+
+  var $windowWidth = $( window ).width(); 
+  adjustStyle( $windowWidth );
   function adjustStyle(width) {
-		
-			width = parseInt(width);
-			if (width < 701) {
-				//alert('small');
-				console.log('small');
-				$("#size-stylesheet").attr("href", "css/small.css");
-			} else if ((width >= 701) && (width < 1650)) {
-				//alert('medium');
-				console.log('medium');
-				$("#size-stylesheet").attr("href", "css/medium.css");
-			} else {
-				//alert('large');
-				console.log('large');
-			   $("#size-stylesheet").attr("href", "css/large.css");
-			}
-		} 
+    
+      width = parseInt(width);
+      if (width < 701) {
+        //alert('small');
+        console.log('small');
+        $("#size-stylesheet").attr("href", "css/small.css");
+      } else if ((width >= 701) && (width < 1650)) {
+        //alert('medium');
+        console.log('medium');
+        $("#size-stylesheet").attr("href", "css/medium.css");
+      } else {
+        //alert('large');
+        console.log('large');
+         $("#size-stylesheet").attr("href", "css/large.css");
+      }
+    } 
+
+
             
 
-		// $(function() {
-		// 	//adjustStyle($(this).width());
-		// 	$(window).resize(function() {
-		// 		adjustStyle(800);
-		// 	});
-		// });
+    // $(function() {
+    //  //adjustStyle($(this).width());
+    //  $(window).resize(function() {
+    //    adjustStyle(800);
+    //  });
+    // });
 
-	</script>
+  </script>
   </head>
   <body>
     <div id="tour-wrapper">
@@ -116,7 +116,7 @@
                     </div><!-- .bottom -->
                   </div><!-- .inner -->
                 </div><!-- #tip_p01s02 -->
-                <div id="tip_p01s03-1" class="tip right-arrow inactive animated fadeInLeft">
+                <div id="tip_p01s03-1" class="tip right-arrow small inactive animated fadeInLeft">
                   <div class="inner">
                     <div class="text">Search results display relevant resources to use with your patient, including reference sheets, articles, and videos.</div>
                     <button type="button" tabindex="0" class="link">Next</button>
@@ -265,7 +265,7 @@
                     </div><!-- .bottom -->
                   </div><!-- .inner -->
                 </div><!-- #tip_p02s01-2 -->                  
-                <div id="tip_p02s02-1" class="tip right-arrow inactive animated fadeInLeft">
+                <div id="tip_p02s02-1" class="tip right-arrow small inactive animated fadeInLeft">
                   <div class="inner">
                     <div class="text">From the care plan screen, access the Problem, Goal and Task you want to work on with the patient.</div>
                     <button type="button" tabindex="0" class="link">Next</button>
@@ -274,7 +274,7 @@
                     </div><!-- .bottom -->
                   </div><!-- .inner -->
                 </div><!-- #tip_p02s02-1 -->
-                <div id="tip_p02s02-2" class="tip right-arrow inactive animated fadeInLeft">
+                <div id="tip_p02s02-2" class="tip right-arrow small inactive animated fadeInLeft">
                   <div class="inner">
                     <div class="text">From the care plan screen, access the Problem, Goal and Task you want to work on with the patient.</div>
                     <button type="button" tabindex="0" class="link">Next</button>
@@ -282,7 +282,7 @@
                       <button type="button" tabindex="0" class="prev">&lt; Previous</button>
                     </div><!-- .bottom -->
                   </div><!-- .inner -->
-                </div><!-- #tip_p02s02-2 -->				
+                </div><!-- #tip_p02s02-2 -->        
                 <div id="tip_p02s02-3" class="tip right-arrow inactive animated fadeInLeft">
                   <div class="inner">
                     <div class="text">Edit the task associated with this step in the care plan to assign patient education.</div>
@@ -301,7 +301,7 @@
                     </div><!-- .bottom -->
                   </div><!-- .inner -->
                 </div><!-- #tip_p02s03 -->
-                <div id="tip_p02s04-1" class="tip left-arrow inactive animated fadeInRight">
+                <div id="tip_p02s04-1" class="tip high left-arrow small inactive animated fadeInRight">
                   <div class="inner">
                     <div class="text">The Healthwise tab will automatically open.</div>
                     <button type="button" tabindex="0" class="link">Next</button>
@@ -310,7 +310,7 @@
                     </div><!-- .bottom -->
                   </div><!-- .inner -->
                 </div><!-- #tip_p02s04-1 -->
-                <div id="tip_p02s04-2" class="tip right-arrow inactive animated fadeInLeft">
+                <div id="tip_p02s04-2" class="tip high right-arrow small inactive animated fadeInLeft">
                   <div class="inner">
                     <div class="text">The selected problem from the Care Plan screen populates as the search term...</div>
                     <button type="button" tabindex="0" class="link">Next</button>
@@ -319,7 +319,7 @@
                     </div><!-- .bottom -->
                   </div><!-- .inner -->
                 </div><!-- #tip_p02s04-2 -->    
-                <div id="tip_p02s04-3" class="tip right-arrow inactive animated fadeInLeft">
+                <div id="tip_p02s04-3" class="tip right-arrow small inactive animated fadeInLeft">
                   <div class="inner">
                     <div class="text">...producing a list of relevant content for that step in the care plan.</div>
                     <button type="button" tabindex="0" class="link">Next</button>
@@ -411,7 +411,7 @@
                 </div><!-- #tip_p02s06 -->                    
               </div><!-- .tips -->
               <div class="screens">
-			    <div id="anim_p02s01-1" class="section animation inactive"></div>
+          <div id="anim_p02s01-1" class="section animation inactive"></div>
                 <div id="anim_p02s01-2" class="section animation inactive"></div>
                 <div id="anim_p02s02-1" class="section animation inactive"></div>
                 <div id="anim_p02s02-2" class="section animation inactive"></div>
@@ -420,11 +420,6 @@
                 <div id="anim_p02s04-0" class="section animation inactive"></div>
                 <div id="anim_p02s04-1" class="section animation inactive"></div>
                 <div id="anim_p02s04-2" class="section animation inactive"></div>
-<!-- 
-				<div id="anim_p02s04-3" class="section image inactive"><img alt="" src="images/p02s03.jpg" /></div>
-				<div id="anim_p02s04-4" class="section image inactive"><img alt="" src="images/p02s04.jpg" /></div>
-				<div id="anim_p02s04-5" class="section image inactive"><img alt="" src="images/p02s05.jpg" /></div>
- -->
                 <div id="anim_p02s04-6" class="section animation inactive"></div>
                 <div id="anim_p02s04-7" class="section animation inactive"></div>
                 <div id="anim_p02s05-1" class="section animation inactive"></div>
@@ -432,23 +427,6 @@
                 <div id="anim_p02s05-3" class="section animation inactive"></div>
                 <div id="anim_p02s05-4" class="section animation inactive"></div>
                 <div id="anim_p02s06" class="section image inactive"><img alt="" src="images/p02s06.jpg" /></div> 
-
-<!--                 <div id="anim_p02s01-1" class="section animation inactive"></div>
-                <div id="anim_p02s01-2" class="section animation inactive"></div>
-                <div id="anim_p02s02-1" class="section animation inactive"></div>
-                <div id="anim_p02s02-2" class="section animation inactive"></div>
-                <div id="anim_p02s02-3" class="section animation inactive"></div>
-                <div id="anim_p02s03" class="section animation inactive"></div>
-                <div id="anim_p02s04-0" class="section animation inactive"></div>
-                <div id="anim_p02s04-1" class="section animation inactive"></div>
-                <div id="anim_p02s04-2" class="section animation inactive"></div>
-                <div id="anim_p02s04-6" class="section animation inactive"></div>
-                <div id="anim_p02s04-7" class="section animation inactive"></div>
-                <div id="anim_p02s05-1" class="section animation inactive"></div>
-                <div id="anim_p02s05-2" class="section animation inactive"></div>
-                <div id="anim_p02s05-3" class="section animation inactive"></div>
-                <div id="anim_p02s05-4" class="section animation inactive"></div>
-                <div id="anim_p02s06" class="section image inactive"><img alt="" src="images/p02s06.jpg" /></div>  -->
               </div><!-- .screens -->
             </div><!-- .container -->
           </div><!-- .computer -->
@@ -479,7 +457,7 @@
               
               <div class="tips">
                 
-                <div id="tip_p03s01" class="tip left-arrow low inactive animated fadeInRight">
+                <div id="tip_p03s01" class="tip left-arrow small low inactive animated fadeInRight">
                   <div class="inner">
                     <div class="text">Patients receive an email when care coordinators share health education materials with them. Let’s use Carol as an example. From the email, Carol is prompted to log into her Salesforce Community to access the materials and interact with her care team.</div>
                     <button type="button" tabindex="0" class="link">Next</button>
@@ -498,7 +476,7 @@
                   </div><!-- .inner -->
                 </div><!-- #tip_p03s02 -->
                 
-                <div id="tip_p03s03" class="tip bottom-arrow inactive animated fadeInDown">
+                <div id="tip_p03s03" class="tip top-arrow inactive animated fadeInDown">
                   <div class="inner">
                     <div class="text">Carol can see the notes sent to her by her care team and access the education.</div>
                     <button type="button" tabindex="0" class="link">Next</button>
