@@ -723,9 +723,9 @@ $(document).ready(function() {
     anim_p2_s4_0 = init_anim('anim_p02s04-0', '../bodymovin/p02s04/00/data.json');
     //setTimeout( function() { $('#tip_p02s02-2').toggleClass('inactive active'); }, 1100);
     //anim_p2_s2_2.playSegments([ 0, 500 ], true );
-    setTimeout( function() { anim_p2_s4_0.play(); }, 3000);
+    setTimeout( function() { anim_p2_s4_0.play(); }, 2500);
     anim_p2_s4_0.addEventListener('loopComplete', function() {
-    anim_p2_s4_0.goToAndStop(100, true);
+    anim_p2_s4_0.goToAndStop(29, true);
     }, false);
     $('#path_02_progress .three').toggleClass('active inactive');
     $('#path_02_progress .four').toggleClass('inactive active');  
@@ -790,21 +790,21 @@ $(document).ready(function() {
   
   
   $('#tip_p02s04-3 .link').on('click', function(){
-          //  alert('p02s04-3 third');
-    
+    //  alert('p02s04-3 third');
+
     $('#tip_p02s04-3').toggleClass('active inactive');
-      $('#anim_p02s04-2').toggleClass('active inactive');
-  $('#tip_p02s04-4').toggleClass('inactive active');
+    $('#anim_p02s04-2').toggleClass('active inactive');
+    $('#tip_p02s04-4').toggleClass('inactive active');
     //Activate animation and tooltip
-  $('#anim_p02s04-2').toggleClass('inactive active');
-      anim_p2_s4_2 = init_anim('anim_p02s04-2', '../bodymovin/p02s04/02/data.json');
+    $('#anim_p02s04-2').toggleClass('inactive active');
+    anim_p2_s4_2 = init_anim('anim_p02s04-2', '../bodymovin/p02s04/02/data.json');
     //setTimeout( function() { $('#tip_p02s02-2').toggleClass('inactive active'); }, 1100);
     //anim_p2_s2_2.playSegments([ 0, 500 ], true );
-  setTimeout( function() { anim_p2_s4_2.play(); }, 3000);
+    setTimeout( function() { anim_p2_s4_2.play(); }, 1500);
     anim_p2_s4_2.addEventListener('loopComplete', function() {
-    anim_p2_s4_2.goToAndStop(100, true);
+      anim_p2_s4_2.goToAndStop(25, true);
     }, false);
-      $('#path_02_progress .four').toggleClass('active inactive');
+    $('#path_02_progress .four').toggleClass('active inactive');
     $('#path_02_progress .four').toggleClass('inactive active');  
   });
   
@@ -823,25 +823,25 @@ $(document).ready(function() {
     //anim_p2_s2_2.playSegments([ 0, 500 ], true );
   setTimeout( function() { anim_p2_s4_0.play(); }, 3000);
     anim_p2_s4_0.addEventListener('loopComplete', function() {
-    anim_p2_s4_0.goToAndStop(100, true);
+    anim_p2_s4_0.goToAndStop(25, true);
     }, false);
   });
     
     //tip 4-5 off, tip 4-6 on
   $('#tip_p02s04-5 .link').on('click', function(){
-           // alert('p02s04-5 five');
-    
+    // alert('p02s04-5 five');
+
     $('#tip_p02s04-5').toggleClass('active inactive');
-      $('#anim_p02s04-0').toggleClass('active inactive');
-  $('#tip_p02s04-6').toggleClass('inactive active');
+    $('#anim_p02s04-0').toggleClass('active inactive');
+    $('#tip_p02s04-6').toggleClass('inactive active');
     //Activate animation and tooltip
-  $('#anim_p02s04-6').toggleClass('inactive active');
-      anim_p2_s4_6 = init_anim('anim_p02s04-6', '../bodymovin/p02s04/06/data.json');
+    $('#anim_p02s04-6').toggleClass('inactive active');
+    anim_p2_s4_6 = init_anim('anim_p02s04-6', '../bodymovin/p02s04/06/data.json');
     //setTimeout( function() { $('#tip_p02s02-2').toggleClass('inactive active'); }, 1100);
     //anim_p2_s2_2.playSegments([ 0, 500 ], true );
-  setTimeout( function() { anim_p2_s4_6.play(); }, 3000);
+    setTimeout( function() { anim_p2_s4_6.play(); }, 2000);
     anim_p2_s4_6.addEventListener('loopComplete', function() {
-    anim_p2_s4_6.goToAndStop(100, true);
+    anim_p2_s4_6.goToAndStop(50, true);
     }, false);
   });
     
@@ -857,9 +857,9 @@ $(document).ready(function() {
       anim_p2_s4_7= init_anim('anim_p02s04-7', '../bodymovin/p02s04/07/data.json');
     //setTimeout( function() { $('#tip_p02s02-2').toggleClass('inactive active'); }, 1100);
     //anim_p2_s2_2.playSegments([ 0, 500 ], true );
-  setTimeout( function() { anim_p2_s4_7.play(); }, 3000);
+  setTimeout( function() { anim_p2_s4_7.play(); }, 500);
     anim_p2_s4_7.addEventListener('loopComplete', function() {
-    anim_p2_s4_7.goToAndStop(100, true);
+    anim_p2_s4_7.goToAndStop(50, true);
     }, false);
   });
     

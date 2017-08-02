@@ -51,7 +51,8 @@ button:focus {
 	outline: none !important;
 }
 
-body {
+body, html {
+	font-family: 'Museo Sans Rounded', Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -281,8 +282,28 @@ image, svg, img {
   cursor: pointer;
 }
 
-#start .inner label .icon img {
-  width: 150px;
+#start .inner label .icon {
+	display: block;
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	background-color: #FA5048;
+	border-radius: 100%;
+}
+
+.icon.education {
+	background-image: url( '../images/accessing_health_education.svg' );
+	background-repeat: no-repeat;
+}
+
+.icon.planning {
+	background-image: url( '../images/care_planning.svg' );
+	background-repeat: no-repeat;
+}
+
+.icon.patient {
+	background-image: url( '../images/patient.svg' );
+	background-repeat: no-repeat;
 }
 
 #start .inner label input[type=radio] {
@@ -397,18 +418,18 @@ image, svg, img {
 /* Section 03 */
 
 #tip_p01s03-1 {
-	left: 130px;
-	bottom: 55px;
+    left: 190px;
+    bottom: 95px;
 }
 
 #tip_p01s03-2 {
 	left: 653px;
-	bottom: 75px;
+	bottom: 95px;
 }
 
 #tip_p01s03-3 {
-	left:530px;
-	bottom: 220px;
+	left: 520px;
+	bottom: 230px;
 }
 
 /* Section 04 */
@@ -421,18 +442,18 @@ image, svg, img {
 /* Section 05 */
 
 #tip_p01s05-1 {
-	left: 725px;
-	bottom: 120px;
+	left: 710px;
+	bottom: 135px;
 }
 
 #tip_p01s05-2 {
 	left: 740px;
-	bottom: 75px;
+	bottom: 95px;
 }
 
 #tip_p01s05-3 {
 	left: 740px;
-	bottom: 40px;
+	bottom: 70px;
 }
 
 /* Section 06 */
@@ -443,13 +464,13 @@ image, svg, img {
 }
 
 #tip_p01s06-2 {
-	left: 225px;
-	bottom: 40px;
+	left: 245px;
+	bottom: 50px;
 }
 
 #tip_p01s06-3 {
 	left: 750px;
-	bottom: 120px;
+	bottom: 110px;
 }
 
 /* =========== */
@@ -517,7 +538,7 @@ image, svg, img {
 /* Section 02 */
 
 #tip_p02s02-1 {
-	left: 175px;
+	left: 185px;
 	bottom: 110px;
 }
 
@@ -551,7 +572,7 @@ image, svg, img {
 }
 
 #tip_p02s04-3 {
-    left: 175px;
+    left: 185px;
     bottom: 60px;
 }
 
@@ -562,7 +583,7 @@ image, svg, img {
 
 #tip_p02s04-5 {
 	left: 615px;
-	bottom: 165px;
+	bottom: 155px;
 }
 
 #tip_p02s04-6 {
@@ -571,7 +592,7 @@ image, svg, img {
 }
 
 #tip_p02s04-7 {
-	left: 580px;
+	left: 600px;
 	bottom: 340px;
 }
 
@@ -593,15 +614,15 @@ image, svg, img {
 }
 
 #tip_p02s05-4 {
-	left: 530px;
-	bottom: 50px;
+	left: 555px;
+	bottom: 30px;
 }
 
 /* Section 06 */
 
 #tip_p02s06 {
-	left: 820px;
-	bottom: 30px;
+    left: 710px;
+    bottom: 110px;
 }
 
 /* =========== */
@@ -611,7 +632,7 @@ image, svg, img {
 /* Section 01 */
 
 #tip_p03s01 {
-    left: 750px;
+    left: 770px;
     bottom: 130px;
 }
 
@@ -619,14 +640,14 @@ image, svg, img {
 
 #tip_p03s02 {
     left: 725px;
-    bottom: 55px;
+    bottom: 95px;
 }
 
 /* Section 03 */
 
 #tip_p03s03 {
     left: 650px;
-    bottom: 70px;
+    bottom: 100px;
 }
 
 /* Section 04 */
@@ -663,7 +684,7 @@ image, svg, img {
 }
 
 #tip_p03s07-3 {
-	left: 150px;
+	left: 160px;
 	bottom: 50px;
 }
 
@@ -687,13 +708,17 @@ image, svg, img {
 	color: #003A47;
 }
 
+.link.dark-hover:hover {
+	background-color: #A03123 !important;
+}
+
 #end .link {
 	width: 215px;
 }
 
 #end .link:hover {
 	color: #fff;
-  background: #003A47;
+	background: #003A47;
 }
 
 #end .explore {
@@ -837,7 +862,7 @@ image, svg, img {
 
 	/* Section 01 */
 
-	#tip_p01s01-1 {
+#tip_p01s01-1 {
 	left: 262px;
 	bottom: 42px;
 }
@@ -916,7 +941,7 @@ image, svg, img {
 
 	/* Section 01 */
 
-	#tip_p02s01-1 {
+#tip_p02s01-1 {
 	left: 600px;
 	bottom: 80px;
 }
@@ -1015,7 +1040,7 @@ image, svg, img {
 
 	/* Section 01 */
 
-	#tip_p03s01 {
+#tip_p03s01 {
     left: 700px;
     bottom: 200px;
 }
@@ -1110,22 +1135,22 @@ image, svg, img {
 
 	.computer {
 		background-size: 965px;
-	  padding: 80px 0;
-	  margin: 40px 0;
+		padding: 80px 0;
+		margin: 40px 0;
 	}
 
 	.computer .animation {
-	  height: 467px;
+		height: 467px;
 		width: 830px;
 		left: -41px;
-	  margin-top: -40px;
+		margin-top: -40px;
 	}
 
 	.computer .image {
 		height: 467px;
 		width: 830px;
 		left: -41px;
-	  margin-top: -40px;
+		margin-top: -40px;
 	}
 
 	.computer .image img {
@@ -1148,8 +1173,8 @@ image, svg, img {
 
 	.link {
 		font-size: 16px;
-    padding: 8px;
-    width: 100px;
+	    padding: 8px;
+	    width: 100px;
 	}
 
 	#start .inner label span {
@@ -1436,10 +1461,10 @@ image, svg, img {
 /* = 768px and below = */
 @media only screen and (max-width:768px) {
 
-	#start,
+/*	#start,
 	#path_01,
 	#path_02 {
 		display: none !important;
-	}
+	}*/
 
 }
